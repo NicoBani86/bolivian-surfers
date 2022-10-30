@@ -1,0 +1,213 @@
+
+
+/* GENERALIDADES HEADER - BODY - FOOTER */
+
+header {
+    background-color: #342455;
+    font-family: Arial, Helvetica, sans-serif;
+    position: sticky;
+    top: 0px;
+    border-bottom: 3px white solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+        
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-size:x-large; 
+    margin-right: 20px;
+}
+
+.navbar a {
+    color: white;
+}
+
+
+.navbar-toggler {
+    color: white;
+}
+.navbar-toggler.icon {
+    color: white;
+}
+
+
+
+body {
+    background-image: url(../img/bsfondogalaxy.jpg);
+}
+
+footer {
+    background-color: #342455;
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 3px white solid;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: large; 
+    margin-right: 10px;
+}
+
+footer p{
+    color: white;
+    font-size: medium;
+}
+
+@media (min-width: 768px) {
+    .espacio {
+        display: none;
+    }
+}
+
+/* GENERALIDADES TITULOS, PARRAFOS Y FUENTES */
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: large;
+    
+}
+
+
+
+/* MENU HEADER */
+
+.enlacesMenu li{
+    display: inline-block;
+  
+}
+
+
+
+/* PAGINA PRINCIPAL */
+
+
+.logoLetras {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.imagenPrincipal {
+    display: flex;
+    justify-content: center;
+    
+    border-radius: 50px;
+
+}
+
+/* HISTORIA */
+
+.historia img {
+    border-radius: 25px;
+}
+
+.integrantes img {
+
+    border-radius: 25px;
+    
+}
+
+
+.integrantes {
+    background-color: #342455;
+    border: 1px solid white;
+    border-radius: 25px;
+   
+    height: 300px;
+    width: 210px;
+    
+    
+
+}
+
+.line {
+    border-bottom: white 2px solid;
+}
+
+/* DISCOGRAFIA */
+
+.disco{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+.disco img{
+    height: 200px;
+
+}
+
+
+/* VIDEOS */
+
+
+.videos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+/* FOTOS */
+
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    
+}
+
+.fotos img{
+   
+    height: 300px;
+    
+}
+
+/* FORMULARIO */
+
+.form {
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 300px;
+}
+
+
+
+
