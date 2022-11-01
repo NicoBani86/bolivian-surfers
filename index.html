@@ -15,10 +15,12 @@
    
 </head>
 <body>
-    <header data-aos="fade-down row">
-      
-        <div class= "col-2"><img class="logo img-fluid" src="img/logosolo.png" alt="Logo Bolivian Surfers"></div>
 
+  <!-- HEADER -->
+    <header data-aos="fade-down row">
+        <div class= "col-2 mt-2 mb-2"><img class="logo img-fluid" src="img/logosolo.png" alt="Logo Bolivian Surfers"></div>
+        
+        <!-- NAVBAR HEADER -->
       <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,21 +43,21 @@
    
     <main>
 
-        
+        <div class="row logoLetras">
+          
 
-        <div class="row">
-          <div class="col-lg-4 col-sm-1"></div>
-
-        <div data-aos="zoom-in" class="logoLetras col-lg-4 col-sm-6 mt-5">
+        <!-- LOGO -->
+        <div data-aos="zoom-in" class=" col-lg-4 col-md-4 col-sm-6 mt-5">
 
             <img class="img-fluid" src="img/BSLETRAS.png" alt="Bolivian Surfers">
     
         </div>
       </div>
-        <br>
-        <div  data-aos="zoom-out" class="row">
-          <div class="col-lg-3 col-sm-2"></div>
-        <div  id="carouselExampleControls" class="carousel slide carousel-fade col-lg-6 col-sm-12" data-bs-ride="carousel">
+        
+        <!-- CAROUSEL -->
+        <div  data-aos="zoom-out" class="mt-5 fotosIndex">
+          
+        <div  id="carouselExampleControls" class="carousel slide carousel-fade col-lg-6 col-md-6 col-sm-6" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img  src="img/fotoindex.jpg" class="d-block w-100 imagenPrincipal" alt="..." > 
@@ -73,18 +75,19 @@
 
     </main>
 
-    
+    <!-- FOOTER -->
     <footer class="row mt-5">
-        <div class="col-lg-3 col-sm-6">
+        <div class="col-lg-3 col-md-4 col-sm-12 ms-2">
             <p>
                 Todos los derechos reservados.  
             </p>
         </div>
-        <div class="col-lg-6"></div>
+        
 
-    <div class="col-lg-3  col-sm-6">
-        <p>Seguinos en nuestras redes sociales.</p>
-       
+    <div class="col-lg-3 col-md-4  col-sm-12">
+        <p class="ms-2">Seguinos en nuestras redes sociales.</p>
+
+       <!-- NAVBAR FOOTER -->
         <nav class="navbar">
           <div class="container">
             <a class="navbar-brand" href="https://www.instagram.com/boliviansurfers/" target="_blank">
@@ -105,8 +108,12 @@
     
 </footer>
 
+
+
+
 <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- AOS -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();

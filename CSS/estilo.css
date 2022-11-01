@@ -13,7 +13,6 @@ header {
     align-items: center;
     z-index: 1;
         
-
 }
 
 header a {
@@ -63,11 +62,8 @@ footer p{
     font-size: medium;
 }
 
-@media (min-width: 768px) {
-    .espacio {
-        display: none;
-    }
-}
+
+
 
 /* GENERALIDADES TITULOS, PARRAFOS Y FUENTES */
 
@@ -107,24 +103,25 @@ p {
   
 }
 
-
-
 /* PAGINA PRINCIPAL */
-
 
 .logoLetras {
     display: flex;
     justify-content: center;
     
+    
+}
+
+
+.fotosIndex {
+    display: flex;
+    justify-content: center;
 
 }
 
 .imagenPrincipal {
-    display: flex;
-    justify-content: center;
     
     border-radius: 50px;
-
 }
 
 /* HISTORIA */
@@ -136,20 +133,20 @@ p {
 .integrantes img {
 
     border-radius: 25px;
-    
+    object-fit:scale-down;    
 }
 
+.containerIntegrantes {
+    display: flex;
+   justify-content: space-between;
+}
 
 .integrantes {
     background-color: #342455;
     border: 1px solid white;
     border-radius: 25px;
-   
     height: 300px;
-    width: 210px;
-    
-    
-
+    width: 200px;
 }
 
 .line {
@@ -166,12 +163,9 @@ p {
 }
 .disco img{
     height: 200px;
-
 }
 
-
 /* VIDEOS */
-
 
 .videos {
     display: flex;
@@ -184,19 +178,16 @@ p {
 
 /* FOTOS */
 
-
 .fotos {
     display: flex;
     flex-wrap: wrap;
 
-    justify-content: space-around;
-    
+    justify-content: space-around;    
 }
 
 .fotos img{
    
     height: 300px;
-    
 }
 
 /* FORMULARIO */
