@@ -112,6 +112,14 @@ p {
     
 }
 
+@media (max-width: 575px) {
+    .logo {
+        max-width: 85%;
+    }
+    .carouselIndex {
+        max-width: 80%;
+    }
+}
 
 .fotosIndex {
     display: flex;
@@ -145,12 +153,50 @@ p {
     background-color: #342455;
     border: 1px solid white;
     border-radius: 25px;
-    height: 300px;
-    width: 200px;
+    height: 100%;
+    width: 40%;
 }
+
+    
 
 .line {
     border-bottom: white 2px solid;
+}
+
+@media (min-width: 1200px) and (max-width: 1444px){
+    .integrantes p {
+        margin-top: -10%;     
+        
+    }
+   
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+    .integrantes p {
+        margin-top: -15%;     
+        
+    }
+   
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+    .fotoHistoria {
+        max-width: 85%;
+    }
+    
+    .historia p {
+       margin-left: 10%;
+       margin-right: 10%;
+    }
+    
+    .integrantes p {
+        margin-top: -10%;
+        font-size: 90%;
+    }
+    .integrantes h3 {
+        font-size: 90%;
+    }  
+  
 }
 
 /* DISCOGRAFIA */
