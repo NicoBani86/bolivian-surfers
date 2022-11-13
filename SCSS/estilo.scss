@@ -1,0 +1,195 @@
+@import "variables";
+@import "header";
+@import "body";
+@import "footer";
+@import "mixin";
+
+
+/*GENERALIDADES*/
+
+  
+  
+  p {
+    
+    font-size: large;
+  }
+
+ 
+.logoLetras, .fotosIndex, .disco, .videos, .contFoto, .formu {
+    @include flexCenter
+  }
+  
+
+/* INDEX */
+
+  .imagenPrincipal {
+    border-radius: 50px;
+  }
+
+  /* HISTORIA */
+
+.historia img {
+    border-radius: 25px;
+    border: 1px $estiloBorde;
+  }
+  
+  .integrantes img {
+    border-radius: 25px;
+    object-fit: scale-down;
+  }
+  
+  .containerIntegrantes {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .integrantes {
+    background-color:$colorfondo;
+    border: 1px $estiloBorde;
+    border-radius: 25px;
+    height: 100%;
+    width: 40%;
+  }
+  
+  .line {
+    border-bottom: 2px $estiloBorde;
+  }
+  
+
+
+  /* DISCOGRAFIA */
+
+ .disco, .videos, h1 {
+    text-align: center;
+  
+  }
+   
+  .borderVid {
+    border-radius: 1%;
+    border: 3px $estiloBorde;
+  }
+
+
+  /* FOTOS */
+
+.contenedor-galeria{
+@include flexCenter;
+  
+}
+.galeria--img {
+@include flexCenter;
+  width: $tamGal;
+  height: $tamGal;
+  object-fit: cover;
+  filter: brightness(70%);
+  border-radius: 20%;
+  border: 3px $estiloBorde;
+  margin: 10%;
+}
+.galeria--img:hover{
+  filter: brightness(100%);
+  
+}
+
+/* CONTACTO */
+
+.fondoForm {
+  border-radius: 5%;
+  background-color: $colorfondo;
+  border: 1px $estiloBorde;
+}
+
+
+/* MEDIAS */
+
+@media (max-width: 575px) {
+  .logo {
+    max-width: 85%;
+  }
+
+  .carouselIndex, .formu {
+    max-width: 80%;
+  }
+  
+  .fotoHistoria {
+    max-width: 85%;
+  }
+
+  .historia p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .disco {
+  @include flexCenter;
+  text-align: center;
+  max-width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  }
+
+  .videos {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .galeria--img {
+    width: $tamGal - 15;
+    height: $tamGal - 15;
+   
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1444px) {
+  .integrantes p {
+    margin-top: -10%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  .integrantes p {
+    margin-top: -15%;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 450px) {
+  .integrantes {
+    p {
+      margin-top: -10%;
+      font-size: 90%;
+    }
+
+    h3 {
+      font-size: 90%;
+    }
+  }
+}
+
+
+@media (max-width: 1501px) {
+  .galeria--img {
+    width: $tamGal - 10;
+    height: $tamGal - 10;
+   
+  }
+}
+
+@media (max-width: 1001px) {
+  .galeria--img {
+    width: $tamGal - 20;
+    height: $tamGal - 20;
+   
+  }
+}
+
+@media (max-width: 901px) {
+  .disco {
+    h2 {
+      font-size: 95%;
+    }
+  }
+}

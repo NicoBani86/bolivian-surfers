@@ -1,254 +1,211 @@
-
-
-/* GENERALIDADES HEADER - BODY - FOOTER */
-
+/*HEADER*/
 header {
-    background-color: #342455;
-    font-family: Arial, Helvetica, sans-serif;
-    position: sticky;
-    top: 0px;
-    border-bottom: 3px white solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-        
+  background-color: #342455;
+  position: sticky;
+  border-bottom: 3px white solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
 }
-
 header a {
-    text-decoration: none;
-    color: white;
-    font-size:x-large; 
-    margin-right: 20px;
+  text-decoration: none;
+  font-size: x-large;
+  margin-right: 20px;
 }
 
 .navbar a {
-    color: white;
+  color: white;
 }
-
 
 .navbar-toggler {
-    color: white;
+  color: white;
 }
 .navbar-toggler.icon {
-    color: white;
+  color: white;
 }
 
-
+.enlacesMenu li {
+  display: inline-block;
+}
 
 body {
-    background-image: url(../img/bsfondogalaxy.jpg);
+  background-image: url(../img/bsfondogalaxy.jpg);
 }
 
 footer {
-    background-color: #342455;
-    font-family: Arial, Helvetica, sans-serif;
-    border-top: 3px white solid;
-    display: flex;
-    justify-content: space-between;
-    
+  background-color: #342455;
+  border-top: 3px white solid;
+  display: flex;
+  justify-content: space-between;
 }
-
-
 footer a {
-    text-decoration: none;
-    color: white;
-    font-size: large; 
-    margin-right: 10px;
+  text-decoration: none;
+  font-size: large;
+  margin-right: 10px;
+}
+footer p {
+  font-size: medium;
 }
 
-footer p{
-    color: white;
-    font-size: medium;
+h1, h2, h3, form, p, a {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
 }
 
-
-
-
-/* GENERALIDADES TITULOS, PARRAFOS Y FUENTES */
-
-h1 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    text-align: center;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
-h3 {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-form {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-
-}
+/*GENERALIDADES*/
 p {
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size: large;
-    
+  font-size: large;
 }
 
-
-
-/* MENU HEADER */
-
-.enlacesMenu li{
-    display: inline-block;
-  
+.logoLetras, .fotosIndex, .disco, .videos, .contFoto, .formu {
+  display: flex;
+  justify-content: center;
 }
 
-/* PAGINA PRINCIPAL */
-
-.logoLetras {
-    display: flex;
-    justify-content: center;
-    
-    
-}
-
-@media (max-width: 575px) {
-    .logo {
-        max-width: 85%;
-    }
-    .carouselIndex {
-        max-width: 80%;
-    }
-}
-
-.fotosIndex {
-    display: flex;
-    justify-content: center;
-
-}
-
+/* INDEX */
 .imagenPrincipal {
-    
-    border-radius: 50px;
+  border-radius: 50px;
 }
 
 /* HISTORIA */
-
 .historia img {
-    border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid white;
 }
 
 .integrantes img {
-
-    border-radius: 25px;
-    object-fit:scale-down;    
+  border-radius: 25px;
+  object-fit: scale-down;
 }
 
 .containerIntegrantes {
-    display: flex;
-   justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .integrantes {
-    background-color: #342455;
-    border: 1px solid white;
-    border-radius: 25px;
-    height: 100%;
-    width: 40%;
+  background-color: #342455;
+  border: 1px solid white;
+  border-radius: 25px;
+  height: 100%;
+  width: 40%;
 }
-
-    
 
 .line {
-    border-bottom: white 2px solid;
-}
-
-@media (min-width: 1200px) and (max-width: 1444px){
-    .integrantes p {
-        margin-top: -10%;     
-        
-    }
-   
-}
-
-@media (min-width: 768px) and (max-width: 992px){
-    .integrantes p {
-        margin-top: -15%;     
-        
-    }
-   
-}
-
-@media (min-width: 350px) and (max-width: 450px) {
-    
-    
-    .integrantes p {
-        margin-top: -10%;
-        font-size: 90%;
-    }
-    .integrantes h3 {
-        font-size: 90%;
-    }  
-  
-}
-
-@media (max-width: 570px) {
-    .fotoHistoria {
-        max-width: 85%;
-    }
-    
-    .historia p {
-       margin-left: 10%;
-       margin-right: 10%;
-    }
+  border-bottom: 2px solid white;
 }
 
 /* DISCOGRAFIA */
-
-.disco{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-}
-.disco img{
-    height: 200px;
+.disco, .videos, h1 {
+  text-align: center;
 }
 
-/* VIDEOS */
-
-.videos {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
+.borderVid {
+  border-radius: 1%;
+  border: 3px solid white;
 }
 
 /* FOTOS */
+.contenedor-galeria {
+  display: flex;
+  justify-content: center;
+}
 
-.fotos {
+.galeria--img {
+  display: flex;
+  justify-content: center;
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  filter: brightness(70%);
+  border-radius: 20%;
+  border: 3px solid white;
+  margin: 10%;
+}
+
+.galeria--img:hover {
+  filter: brightness(100%);
+}
+
+/* CONTACTO */
+.fondoForm {
+  border-radius: 5%;
+  background-color: #342455;
+  border: 1px solid white;
+}
+
+/* MEDIAS */
+@media (max-width: 575px) {
+  .logo {
+    max-width: 85%;
+  }
+  .carouselIndex, .formu {
+    max-width: 80%;
+  }
+  .fotoHistoria {
+    max-width: 85%;
+  }
+  .historia p {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .disco {
     display: flex;
-    flex-wrap: wrap;
-
-    justify-content: space-around;    
-}
-
-.fotos img{
-   
-    height: 300px;
-}
-
-/* FORMULARIO */
-
-.form {
+    justify-content: center;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .videos {
     display: flex;
-    flex-flow: column;
-    justify-content: flex-start;
-    width: 300px;
+    justify-content: center;
+    text-align: center;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .galeria--img {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1444px) {
+  .integrantes p {
+    margin-top: -10%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .integrantes p {
+    margin-top: -15%;
+  }
+}
+@media (min-width: 350px) and (max-width: 450px) {
+  .integrantes p {
+    margin-top: -10%;
+    font-size: 90%;
+  }
+  .integrantes h3 {
+    font-size: 90%;
+  }
+}
+@media (max-width: 1501px) {
+  .galeria--img {
+    width: 20rem;
+    height: 20rem;
+  }
+}
+@media (max-width: 1001px) {
+  .galeria--img {
+    width: 10rem;
+    height: 10rem;
+  }
+}
+@media (max-width: 901px) {
+  .disco h2 {
+    font-size: 95%;
+  }
 }
 
-
-
-
+/*# sourceMappingURL=estilo.css.map */

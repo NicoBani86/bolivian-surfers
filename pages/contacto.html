@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bolivian Surfers</title>
+    <title>BS|Contacto</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <!-- AOS -->
@@ -18,7 +18,7 @@
   <!-- HEADER -->
     <header data-aos="fade-down row">
         
-        <div class= "col-2 mt-2 mb-2"><img class="logo img-fluid" src="../img/logosolo.png" alt="Logo Bolivian Surfers"></div>
+        <div class= "col-2 mt-2 ms-2 mb-2"><img class="logo img-fluid" src="../img/logosolo.png" alt="Logo Bolivian Surfers"></div>
         <div class= "col-3"><img class="letraHead img-fluid" src="../img/BSLETRAS.png" alt="Logo letras Bolivian Surfers"></div>
      
       <!-- NAVBAR HEADER -->
@@ -46,7 +46,32 @@
     <main>
         <h1>Contacto</h1>
 
-    <form class="form">
+        <div class="row justify-content-center mt-4">
+
+          <div class="col-lg-9 col-md-9 col-sm-9 formu">
+            <form  method="post" role="form" class="php-email-form fondoForm col-7">
+              <div class="row">
+                <div class="col-lg-5 col-md-5 col-sm-11 form-group formu mt-4 ms-2">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Nombre" required>
+                </div>
+                <div class="col-lg-5 col-md-5 col-sm-11 form-group formu mt-4 ms-2">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="E-mail" required>
+                </div>
+              </div>
+              <div class="form-group mt-3 ms-2 me-2">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Asunto" required>
+              </div>
+              <div class="form-group mt-3 ms-2 me-2">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mensaje" required></textarea>
+              </div>
+              
+              <div class="text-center mt-3 mb-4"><button type="submit">Enviar</button></div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+    <!-- <form class="form">
        
         <label for="nombre">Nombre</label>
         <input type="text" id="nombre">
@@ -58,7 +83,7 @@
         <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
         <br><br>
         <input type="submit">
-        <input type="reset">
+        <input type="reset"> -->
 
     </main>
     </form>
