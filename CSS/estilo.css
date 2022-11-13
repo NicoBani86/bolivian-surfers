@@ -31,13 +31,18 @@ header a {
 
 body {
   background-image: url(../img/bsfondogalaxy.jpg);
+  background-size: cover;
 }
 
 footer {
   background-color: #342455;
-  border-top: 3px white solid;
+  border-top: solid white;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
 }
 footer a {
   text-decoration: none;
