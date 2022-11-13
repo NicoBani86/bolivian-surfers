@@ -170,6 +170,9 @@ p {
     width: 15rem;
     height: 15rem;
   }
+  .fondoForm {
+    width: 18rem;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1444px) {
   .integrantes p {
