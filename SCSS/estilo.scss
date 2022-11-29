@@ -24,6 +24,7 @@
 
   .imagenPrincipal {
     border-radius: 50px;
+    border: 3px $estiloBorde;
   }
 
   /* HISTORIA */
@@ -93,11 +94,16 @@
 
 /* CONTACTO */
 
-.fondoForm {
+.fondoForm, .boton {
   border-radius: 5%;
   background-color: $colorfondo;
   border: 1px $estiloBorde;
 }
+.boton {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
 
 
 /* MEDIAS */

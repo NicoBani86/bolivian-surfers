@@ -1,17 +1,17 @@
 footer {
-    background-color: $colorfondo;
-    border-top: $estiloBorde;
-    display: flex;
-    justify-content: space-between;
+  background-color: $colorfondo;
+  border-top: $estiloBorde;
+  display: flex;
+  justify-content: space-between;
 
-  
-    a {
-      text-decoration: none;
-      font-size: large;
-      margin-right: 10px;
-    }
-  
-    p {
-      font-size: medium;
-    }
+
+  a {
+    text-decoration: none;
+    font-size: large;
+    margin-right: 10px;
   }
+
+  p {
+    font-size: medium;
+  }
+}

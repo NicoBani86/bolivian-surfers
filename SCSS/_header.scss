@@ -1,32 +1,31 @@
 /*HEADER*/
 header {
-    background-color: $colorfondo;
-    position: sticky;
-    border-bottom: 3px white solid;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1;
-  
-    a {
-      text-decoration: none;
-      font-size: x-large;
-      margin-right: 20px;
-    }
+  background-color: $colorfondo;
+  border-bottom: 3px white solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  a {
+    text-decoration: none;
+    font-size: x-large;
+    margin-right: 20px;
   }
-  
-  .navbar a {
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar-toggler {
+  color: white;
+
+  &.icon {
     color: white;
   }
-  
-  .navbar-toggler {
-    color: white;
-  
-    &.icon {
-      color: white;
-    }
-  }
-  
-  .enlacesMenu li {
-    display: inline-block;
-  }
+}
+
+.enlacesMenu li {
+  display: inline-block;
+}

@@ -1,4 +1,5 @@
 body {
-    background-image: url(../img/bsfondogalaxy.jpg);
-    background-size: cover;
-  }
+  background-image: url(../img/bsfondogalaxy.jpg);
+  background-size: contain;
+  overflow-x: hidden;
+}
